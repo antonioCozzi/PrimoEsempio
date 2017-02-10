@@ -1,0 +1,36 @@
+package com.example.anton.primoesempio;
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+
+import static android.view.View.*;
+
+/**
+ * Created by anton on 08/02/2017.
+ */
+
+public class RelativeActivity extends AppCompatActivity {
+    protected void onCreate(Bundle savedInstanceState) {
+        setTitle(R.string.app_name);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_relative);
+
+        final ImageView image = (ImageView)findViewById(R.id.image);
+        image.setVisibility(View.INVISIBLE);
+        final Button fattiMandare = (Button)findViewById(R.id.fattiMandare);
+
+        fattiMandare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(image.getVisibility() == View.INVISIBLE) {
+                    image.setVisibility(VISIBLE);
+                }
+                else
+                    image.setVisibility(INVISIBLE);
+            }
+        });
+    }
+}

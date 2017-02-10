@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fatti Mandare</string>
+    <string name="hello">Hello World!</string>
+    <string name="title">Titolo</string>
+    <string name="subtitle">Sottotitolo</string>
+    <string name="loreIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non leo in quam fermentum malesuada. Vestibulum faucibus quis orci ut scelerisque. Integer eget neque eget sapien rutrum efficitur. Fusce molestie viverra neque ut malesuada. Suspendisse massa leo, feugiat vitae efficitur eget, tincidunt lobortis odio. Morbi pharetra turpis sed lectus laoreet.</string>
+    <string name="read">Leggi</string>
+    <string name="date">08/02/2016</string>
+    <string name="fuck">Fatti mandare</string>
+</resources>
