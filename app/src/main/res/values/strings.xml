@@ -7,4 +7,13 @@
     <string name="read">Leggi</string>
     <string name="date">08/02/2016</string>
     <string name="fuck">Fatti mandare</string>
+    <string name="smettila">Smettila, trimone!</string>
+    <string name="gia_mandato">Sei già stato mandato!</string>
+    <string name="name">Antonio Cozzi</string>
+    <string name="telephone_num">3278546521</string>
+    <string name="position">Via Sandro Sandri 71</string>
+    <string name="go_via_maps">go</string>
+    <string name="call_phone">call</string>
+    <string name="email">antoniocozzi@elis.it</string>
+    <string name="send">send</string>
 </resources>

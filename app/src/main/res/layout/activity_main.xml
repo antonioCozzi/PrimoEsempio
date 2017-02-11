@@ -5,8 +5,8 @@
     android:layout_margin="20dp">
 
     <ScrollView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content">
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,10 +21,10 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <TextView
-                android:id="@+id/title"
+                android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/title"
+                android:text="@string/name"
                 android:textStyle="bold"
                 android:textColor="@color/colorAccent"
                 android:textSize="25dp"/>
@@ -36,13 +36,12 @@
             android:orientation="horizontal"
             android:layout_margin="10dp">
             <TextView
-                android:id="@+id/subtitle"
+                android:id="@+id/position"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/subtitle"
+                android:text="@string/position"
                 android:textColor="@color/colorAccent"
-                android:textStyle="italic"
                 android:textSize="18dp" />
 
             <TextView
@@ -65,10 +64,11 @@
                 android:layout_width="wrap_content">
 
             <TextView
-                android:id="@+id/loremIpsum"
+                android:id="@+id/phone_number"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/loreIpsum"
+                android:layout_height="wrap_content"
+                android:text="@string/telephone_num"
+                android:textSize="20dp"
                 android:textColor="@color/colorPrimary"/>
 
             </ScrollView>
@@ -80,14 +80,38 @@
             android:layout_height="wrap_content"
             android:gravity="end">
             <Button
-                android:id="@+id/read"
+                android:id="@+id/go"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@string/read"
+                android:text="@string/go_via_maps"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
                 android:shadowColor="@color/colorAccent"
                 android:textColor="@color/colorAccent"
                 android:layout_marginEnd="10dp"
                 android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/call_phone"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:shadowColor="@color/colorAccent"
+                android:textColor="@color/colorAccent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/send"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:shadowColor="@color/colorAccent"
+                android:textColor="@color/colorAccent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="8dp"/>
+
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
@@ -96,5 +120,5 @@
         android:layout_height="match_parent"
         android:text="@string/fuck"
         android:textColor="@color/colorPrimaryDark"
-        android:id="@+id/change"/>
+        android:id="@+id/change" />
 </LinearLayout>
